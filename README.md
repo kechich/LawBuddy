@@ -106,9 +106,7 @@ the following **function secrets** (set them in the Supabase dashboard or via
 - `TNG_API_KEY` — API key for the model gateway
 - `TNG_TEAM_NAME` — team identifier (defaults to `default`)
 
-> **Security note:** `.env` holds only the public Supabase **anon** key, which is safe to
-> ship in the frontend as long as Row-Level Security is enabled on your tables. Never put a
-> `service_role` key in `.env`.
+
 
 ## License
 
